@@ -1,0 +1,9 @@
+{
+  "title": "TokenModelResponse",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}

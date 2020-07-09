@@ -1,0 +1,9 @@
+{
+  "title": "PaymentConfirmationModel",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
