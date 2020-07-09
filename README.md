@@ -12,3 +12,12 @@ Column A | Column B | Column C
  A3 | B3 | C3
 
 
+ 
+```json http
+{
+  "method": "get",
+  "url": "https://todos.stoplight.io/todos"
+}
+```
+
+
