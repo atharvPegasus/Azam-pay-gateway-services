@@ -1,23 +1,15 @@
 # Azam-pay-gateway-services
 
+Azampay gateaway service solution is a secured and easy way to handel payments on your business. This is quick and easy to implement API based payment solution.
+
 <div align="center">
     <img src="assets/images/Azampya.png" alt="AzamPay" width="100%">
 </div>
 
 
-Column A | Column B | Column C
----------|----------|---------
- A1 | B1 | C1
- A2 | B2 | C2
- A3 | B3 | C3
+**The API swagger for sandbox can be reffered from**
+[http://localhost:3000](url)
 
+**Request Response models can be reffered from the mdeols folder**
 
- 
-```json http
-{
-  "method": "get",
-  "url": "https://todos.stoplight.io/todos"
-}
-```
-
-
+**Indivisual API explanation can be found on the docs**
