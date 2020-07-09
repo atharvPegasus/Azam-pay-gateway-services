@@ -1,0 +1,3 @@
+# Payment-confirmation
+
+The beginning of an awesome article...
