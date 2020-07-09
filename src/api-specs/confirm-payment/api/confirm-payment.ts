@@ -8,7 +8,9 @@ export const confirmPayment: any = {
             'type': 'object',
             'title': 'Confirmation Paymentment Request',
             'description': 'Sample Confirmation Paymentment Request',
-            'properties': {},
+            'properties': {
+              'IsSuccess': { 'type': 'boolean' },
+            },
           },
         },
       },
