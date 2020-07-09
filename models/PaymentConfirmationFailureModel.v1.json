@@ -1,10 +1,10 @@
 {
-  "title": "CheckoutModelNegativeResponse",
+  "title": "PaymentConfirmationFailureModel",
   "type": "object",
   "properties": {
     "success": {
       "type": "boolean",
-      "description": "This will be false in case if the checkout UI fails."
+      "description": "This will be false in case if the payment confirmation fails."
     },
     "responseCode": {
       "type": "number",
