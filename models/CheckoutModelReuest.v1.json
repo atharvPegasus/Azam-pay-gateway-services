@@ -31,7 +31,7 @@
       "maxLength": 11,
       "description": "Here you need to enter the amount that sender should get debited with"
     },
-    "ShowSuccess": {
+    "IsSuccess": {
       "type": "boolean",
       "description": "This is optional fields will only work on sandbox to mock the request and response in case of fail or success"
     }
