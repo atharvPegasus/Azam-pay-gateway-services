@@ -1,9 +1,9 @@
 export const components = {
   schemas: {
-    tokenComponent: {
+    confirmPaymentComponent: {
       type: 'object',
-      title: 'Token Request',
-      description: 'Sample Token Request',
+      title: 'Checkout Request',
+      description: 'Sample Checkout Request',
       properties: {
         VendorCode: { type: 'string' },
         PartnerCode: { type: 'string' },

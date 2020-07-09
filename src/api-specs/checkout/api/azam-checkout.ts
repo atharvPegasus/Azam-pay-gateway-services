@@ -35,7 +35,7 @@ export const azamCheckout: any = {
                   'properties': {
                     'ReferenceID': {
                       'type': 'string',
-                      'value': 'REFERENCE_ID',
+                      'value': new Date(),
                     }
                   },
                 },

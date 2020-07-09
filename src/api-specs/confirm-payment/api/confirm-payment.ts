@@ -1,30 +1,26 @@
-export const tokenComponent: any = {
+export const confirmPayment: any = {
   'post': {
-    'x-operation-name': 'tokenComponentFunction',
+    'x-operation-name': 'paymentComponentFunction',
     'requestBody': {
       'content': {
         'application/json': {
           'schema': {
             'type': 'object',
-            'title': 'Token Request',
-            'description': 'Sample Token Request',
-            'properties': {
-              'VendorCode': { 'type': 'string' },
-              'PartnerCode': { 'type': 'string' },
-              'IsSuccess': { 'type': 'boolean' },
-            },
+            'title': 'Confirmation Paymentment Request',
+            'description': 'Sample Confirmation Paymentment Request',
+            'properties': {},
           },
-        }
-      }
+        },
+      },
     },
     'responses': {
       '200': {
-        'description': 'Token Success Response',
+        'description': 'Confirmation Paymentment Success Response',
         'content': {
           'application/json': {
             'schema': {
               'type': 'object',
-              'title': 'TokenResponse',
+              'title': 'Confirmation PaymentResponsement',
               'properties': {
                 'success': { 'type': 'boolean' },
                 'responseCode': { 'type': 'string' },
@@ -32,10 +28,30 @@ export const tokenComponent: any = {
                 'data': {
                   'type': 'object',
                   'properties': {
-                    'Authorization': {
+                    'operator': {
+                      'type': 'string',
+                      'value': 'Airtel',
+                    },
+                    'reference': {
                       'type': 'string',
                       'value': new Date(),
-                    }
+                    },
+                    'utilityref': {
+                      'type': 'string',
+                      'value': new Date(),
+                    },
+                    'amount': {
+                      'type': 'string',
+                      'value': '1000',
+                    },
+                    'transid': {
+                      'type': 'string',
+                      'value': new Date(),
+                    },
+                    'msisdn': {
+                      'type': 'string',
+                      'value': new Date(),
+                    },
                   },
                 },
               },
@@ -44,12 +60,12 @@ export const tokenComponent: any = {
         },
       },
       '500': {
-        'description': 'Token Failure Response',
+        'description': 'Confirmation Paymentment Failure Response',
         'content': {
           'application/json': {
             'schema': {
               'type': 'object',
-              'title': 'TokenResponse',
+              'title': 'Confirmation PaymentResponsement',
               'properties': {
                 'success': { 'type': 'boolean', 'value': false },
                 'responseCode': { 'type': 'string', 'value': '500' },
