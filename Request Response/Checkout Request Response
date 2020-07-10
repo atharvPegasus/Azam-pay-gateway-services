@@ -1,9 +1,0 @@
-Checkout Request 
-
-
-
-Checkout Response
-{
-  success: boolean //true or false
-  
-}
