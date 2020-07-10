@@ -23,7 +23,7 @@
 ```json http
 {
   "method": "post",
-  "url": "http://localhost:3000/azam/generate/token",
+  "url": "http://3.120.144.2:3000/azam/mock/v1/token",
   "headers": {
     "Content-Type": "application/json"
   },
