@@ -14,7 +14,7 @@ Azampay gateaway service solution is a secured and easy way to handel payments o
 
 
 **The API swagger for sandbox can be reffered from**
-[http://localhost:3000](url)
+[http://3.120.144.2:3000](url)
 
 **Request Response models can be reffered from the models folder**
 

@@ -23,7 +23,7 @@
 ```json http
 {
   "method": "post",
-  "url": "http://localhost:3000/azam/v1/checkout",
+  "url": "http://3.120.144.2:3000/azam/mock/v1/checkout",
   "headers": {
     "Authorization": "UxjnkkasdBkasd6886838nasd",
     "Content-Type": "application/json"
