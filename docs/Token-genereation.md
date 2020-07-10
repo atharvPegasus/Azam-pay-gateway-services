@@ -18,6 +18,7 @@
 
 > For more information on postive and negetive request response can be found under models. 
 
+**API Request**
 
 ```json http
 {
