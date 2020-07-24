@@ -1,0 +1,9 @@
+{
+  "title": "PaymentConfirmationNegetiveResponse",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}

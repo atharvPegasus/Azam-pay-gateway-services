@@ -1,0 +1,9 @@
+{
+  "title": "PaymentInitiation",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
