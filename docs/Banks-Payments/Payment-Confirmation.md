@@ -29,10 +29,11 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "SenderMsisdn": "string",
-    "ReferenceMsisdn": "string",
-    "Amount": "string",
-    "IsSuccess": true
+  "OTP": "123456",
+  "ReferenceID": "DFDS799D",
+  "MobileNumber": "SHAREDEARLIER// +255908916224",
+  "CustomerAccountNumber": "67867892347823",
+  "IsSuccess": true
   }
 }
 ```
