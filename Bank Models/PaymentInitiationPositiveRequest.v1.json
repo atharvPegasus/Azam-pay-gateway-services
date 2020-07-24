@@ -1,0 +1,9 @@
+{
+  "title": "PaymentInitiationPositiveRequest",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  }
+}
