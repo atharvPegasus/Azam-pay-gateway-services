@@ -29,10 +29,12 @@
     "Content-Type": "application/json"
   },
   "body": {
-    "SenderMsisdn": "string",
-    "ReferenceMsisdn": "string",
-    "Amount": "string",
-    "IsSuccess": true
+  "MobileNumber": "+25590801212",
+  "AccountNumber": "213e34343543",
+  "MerchantRefID": "ATHRV",
+  "Amount": "1000",
+  "RefernceNumber": "HFMXJ*&(*",
+  "IsSuccess": true
   }
 }
 ```
