@@ -5,5 +5,13 @@
     "id": {
       "type": "string"
     }
+  },
+  "x-examples": {
+    "PaymentNegetiveResponse": {
+      "success": false,
+      "responseCode": 500,
+      "message": "This is a failed transaction",
+      "data": {}
+    }
   }
 }
